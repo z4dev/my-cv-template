@@ -1,3 +1,5 @@
+import { Mail, Phone, MapPin, Linkedin, Github, Globe, ExternalLink } from "lucide-react"
+
 export default function ATSFriendlyCV() {
   return (
     <div className="max-w-4xl mx-auto bg-white p-8 font-sans text-black leading-normal">
@@ -6,9 +8,38 @@ export default function ATSFriendlyCV() {
         <h1 className="text-2xl font-bold mb-2 uppercase tracking-wide">IZZEDEEN ALFARRA</h1>
         <p className="text-base font-semibold mb-3">Backend Web Developer | Node.js Developer</p>
         <div className="text-sm space-y-1">
-          <p>Email: izzedeenalfarra123@gmail.com | Phone: +201018055912</p>
-          <p>Location: Cairo, Egypt</p>
-          <p>LinkedIn: https://www.linkedin.com/in/z4dev/ | GitHub: https://github.com/z4dev</p>
+          <div className="flex items-center justify-center gap-4 flex-wrap">
+            <div className="flex items-center gap-1">
+              <Mail className="w-4 h-4" />
+              <a href="mailto:izzedeenalfarra123@gmail.com" className="text-blue-600 hover:underline">
+                izzedeenalfarra123@gmail.com
+              </a>
+            </div>
+            <div className="flex items-center gap-1">
+              <Phone className="w-4 h-4" />
+              <a href="tel:+201018055912" className="text-blue-600 hover:underline">
+                +201018055912
+              </a>
+            </div>
+          </div>
+          <div className="flex items-center justify-center gap-1 mt-2">
+            <MapPin className="w-4 h-4" />
+            <span>Cairo, Egypt</span>
+          </div>
+          <div className="flex items-center justify-center gap-4 flex-wrap mt-2">
+            <div className="flex items-center gap-1">
+              <Linkedin className="w-4 h-4" />
+              <a href="https://www.linkedin.com/in/z4dev/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                LinkedIn Profile
+              </a>
+            </div>
+            <div className="flex items-center gap-1">
+              <Github className="w-4 h-4" />
+              <a href="https://github.com/z4dev" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                GitHub Profile
+              </a>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -16,7 +47,7 @@ export default function ATSFriendlyCV() {
       <section className="mb-6">
         <h2 className="text-lg font-bold mb-3 uppercase border-b border-black pb-1">PROFESSIONAL SUMMARY</h2>
         <p className="text-justify">
-          Results-driven Backend Web Developer with 2+ years of hands-on experience in JavaScript and TypeScript
+          Results-driven Backend Web Developer with 3+ years of hands-on experience in JavaScript and TypeScript
           development. Specialized in Node.js, Express.js, and Nest.js with proven track record of building scalable,
           high-performance backend systems and RESTful APIs. Demonstrated expertise in database design, API integration,
           and full-stack development. Strong problem-solving abilities with experience in agile development environments
@@ -139,7 +170,14 @@ export default function ATSFriendlyCV() {
 
         <div className="mb-4">
           <h3 className="font-bold">Mega Top API</h3>
-          <p className="text-sm mb-1">Backend API Development | https://megatop.com.eg/en</p>
+          <div className="text-sm mb-1 flex items-center gap-1">
+            <Globe className="w-4 h-4" />
+            <span>Backend API Development | </span>
+            <a href="https://megatop.com.eg/en" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline flex items-center gap-1">
+              megatop.com.eg
+              <ExternalLink className="w-3 h-3" />
+            </a>
+          </div>
           <ul className="list-disc list-inside space-y-1 ml-4">
             <li>Developed comprehensive backend API for large-scale e-commerce platform</li>
             <li>Implemented secure product management, user authentication, and order processing systems</li>
@@ -161,7 +199,14 @@ export default function ATSFriendlyCV() {
 
         <div className="mb-4">
           <h3 className="font-bold">Node.js E-commerce API</h3>
-          <p className="text-sm mb-1">March 2024 - Present | GitHub: github.com/z4dev/e-commerce-api</p>
+          <div className="text-sm mb-1 flex items-center gap-1">
+            <Github className="w-4 h-4" />
+            <span>March 2024 - Present | </span>
+            <a href="https://github.com/z4dev/e-commerce-api" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline flex items-center gap-1">
+              GitHub Repository
+              <ExternalLink className="w-3 h-3" />
+            </a>
+          </div>
           <ul className="list-disc list-inside space-y-1 ml-4">
             <li>Developed comprehensive e-commerce API using Express.js with microservices architecture</li>
             <li>Integrated multiple payment gateways with secure transaction processing and fraud detection</li>
@@ -173,7 +218,14 @@ export default function ATSFriendlyCV() {
 
         <div className="mb-4">
           <h3 className="font-bold">Laravel CRUD Task Management System</h3>
-          <p className="text-sm mb-1">April 2024 | GitHub: github.com/z4dev/intern01-laravel</p>
+          <div className="text-sm mb-1 flex items-center gap-1">
+            <Github className="w-4 h-4" />
+            <span>April 2024 | </span>
+            <a href="https://github.com/z4dev/intern01-laravel" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline flex items-center gap-1">
+              GitHub Repository
+              <ExternalLink className="w-3 h-3" />
+            </a>
+          </div>
           <ul className="list-disc list-inside space-y-1 ml-4">
             <li>Built comprehensive task management system with complete CRUD operations</li>
             <li>Implemented secure user authentication, authorization, and task categorization features</li>
@@ -184,7 +236,14 @@ export default function ATSFriendlyCV() {
 
         <div className="mb-4">
           <h3 className="font-bold">Full Stack PHP E-commerce Website</h3>
-          <p className="text-sm mb-1">February 2022 - May 2022 | GitHub: github.com/z4dev/phone_e_web_site</p>
+          <div className="text-sm mb-1 flex items-center gap-1">
+            <Github className="w-4 h-4" />
+            <span>February 2022 - May 2022 | </span>
+            <a href="https://github.com/z4dev/phone_e_web_site" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline flex items-center gap-1">
+              GitHub Repository
+              <ExternalLink className="w-3 h-3" />
+            </a>
+          </div>
           <ul className="list-disc list-inside space-y-1 ml-4">
             <li>Developed complete e-commerce solution for phone sales with custom PHP backend</li>
             <li>Built using PHP, JavaScript, HTML5, and CSS3 with responsive design principles</li>
@@ -216,31 +275,46 @@ export default function ATSFriendlyCV() {
         <h2 className="text-lg font-bold mb-3 uppercase border-b border-black pb-1">REFERENCES</h2>
 
         <div className="space-y-3">
-          <div>
+          <div className="flex flex-col space-y-1">
             <p>
               <strong>Dr. Loay Qanan</strong>
             </p>
             <p>Full Stack Web Developer and University Instructor</p>
             <p>AWQAF Ministry of Gaza</p>
-            <p>Email: engloayqannan@hotmail.com</p>
+            <div className="flex items-center gap-1">
+              <Mail className="w-4 h-4" />
+              <a href="mailto:engloayqannan@hotmail.com" className="text-blue-600 hover:underline">
+                engloayqannan@hotmail.com
+              </a>
+            </div>
           </div>
 
-          <div>
+          <div className="flex flex-col space-y-1">
             <p>
               <strong>Eng. Mohammed Nabheen</strong>
             </p>
             <p>Co Mentor</p>
             <p>GSG TT9 - ReactJS Training</p>
-            <p>Email: maanabahin2001@gmail.com</p>
+            <div className="flex items-center gap-1">
+              <Mail className="w-4 h-4" />
+              <a href="mailto:maanabahin2001@gmail.com" className="text-blue-600 hover:underline">
+                maanabahin2001@gmail.com
+              </a>
+            </div>
           </div>
 
-          <div>
+          <div className="flex flex-col space-y-1">
             <p>
               <strong>Eng. Martin Ashraf</strong>
             </p>
             <p>Mid Level Backend Web Developer</p>
             <p>DigiFly</p>
-            <p>Email: martinashraf99@gmail.com</p>
+            <div className="flex items-center gap-1">
+              <Mail className="w-4 h-4" />
+              <a href="mailto:martinashraf99@gmail.com" className="text-blue-600 hover:underline">
+                martinashraf99@gmail.com
+              </a>
+            </div>
           </div>
         </div>
       </section>
