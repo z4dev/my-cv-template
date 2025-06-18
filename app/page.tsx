@@ -7,6 +7,11 @@ export default function ATSFriendlyCV() {
       <div className="text-center mb-6 pb-4 border-b-2 border-black">
         <h1 className="text-2xl font-bold mb-2 uppercase tracking-wide">IZZEDEEN ALFARRA</h1>
         <p className="text-base font-semibold mb-3">Backend Web Developer | Node.js Developer</p>
+        <div className="flex items-center justify-center gap-1 mt-2">
+            <MapPin className="w-4 h-4" />
+            <span>Cairo, Egypt</span>
+          </div>
+          <br />
         <div className="text-sm space-y-1">
           <div className="flex items-center justify-center gap-4 flex-wrap">
             <div className="flex items-center gap-1">
@@ -22,10 +27,7 @@ export default function ATSFriendlyCV() {
               </a>
             </div>
           </div>
-          <div className="flex items-center justify-center gap-1 mt-2">
-            <MapPin className="w-4 h-4" />
-            <span>Cairo, Egypt</span>
-          </div>
+        
           <div className="flex items-center justify-center gap-4 flex-wrap mt-2">
             <div className="flex items-center gap-1">
               <Linkedin className="w-4 h-4" />
@@ -144,13 +146,13 @@ export default function ATSFriendlyCV() {
             <strong>Backend Frameworks:</strong> Node.js, Express.js, Nest.js, Laravel
           </p>
           <p>
-            <strong>Frontend Technologies:</strong> React.js, Next.js, HTML5, CSS3, Responsive Design
+            <strong>Frontend Technologies:</strong> React.js, Next.js, Expert JavaScript
           </p>
           <p>
             <strong>Databases:</strong> MySQL, PostgreSQL, MongoDB
           </p>
           <p>
-            <strong>ORM/ODM:</strong> TypeORM, Prisma, Mongoose, Eloquent
+            <strong>ORM/ODM:</strong> Prisma, Mongoose
           </p>
           <p>
             <strong>Development Tools:</strong> Docker, Git, GitHub, VS Code, Postman
@@ -208,7 +210,7 @@ export default function ATSFriendlyCV() {
             </a>
           </div>
           <ul className="list-disc list-inside space-y-1 ml-4">
-            <li>Developed comprehensive e-commerce API using Express.js with microservices architecture</li>
+            <li>Developed comprehensive e-commerce API using Express.js </li>
             <li>Integrated multiple payment gateways with secure transaction processing and fraud detection</li>
             <li>Implemented JWT-based authentication, role-based authorization, and database optimization</li>
             <li>Optimized API endpoints for speed and scalability, achieving sub-200ms response times</li>
@@ -291,7 +293,7 @@ export default function ATSFriendlyCV() {
 
           <div className="flex flex-col space-y-1">
             <p>
-              <strong>Eng. Mohammed Nabheen</strong>
+              <strong>Eng. Mohammed Nabaheen</strong>
             </p>
             <p>Co Mentor</p>
             <p>GSG TT9 - ReactJS Training</p>
